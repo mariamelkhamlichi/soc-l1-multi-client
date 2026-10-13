@@ -23,7 +23,7 @@ https://192.168.10.20
 
 | ID | Nom | Adresse IP | Système | Statut observé |
 |---:|---|---|---|---|
-| 001 | raspberry | 192.168.10.1 | Debian GNU/Linux 11 | Déconnecté |
+| 001 | raspberry | 192.168.10.1 | Debian GNU/Linux 11 | Actif après démarrage de `master` |
 | 002 | kali | 192.168.10.10 | Kali GNU/Linux 2026.1 | Actif |
 | 003 | kali-B | 192.168.10.11 | Kali GNU/Linux 2026.1 | Déconnecté |
 
@@ -38,3 +38,7 @@ La disponibilité de la collecte sera suivie avant l'exécution des scénarios.
 Les alertes et agents déjà présents peuvent provenir d'une configuration
 antérieure du laboratoire. Ils ne sont pas encore attribués aux trois clients
 Atlas et ne doivent pas être présentés comme des résultats du projet.
+
+Après le démarrage de `master` et la vérification du service `wazuh-agent`,
+l'agent `raspberry` est passé à l'état actif dans Wazuh. La collecte Linux
+est donc disponible pour la suite du projet.
