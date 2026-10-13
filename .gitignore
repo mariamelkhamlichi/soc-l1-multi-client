@@ -1,0 +1,15 @@
+# Secrets et fichiers locaux
+.env
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Fichiers temporaires
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+
+# Captures et exports locaux non validés
+captures/raw/
